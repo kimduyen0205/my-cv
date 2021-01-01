@@ -8,6 +8,10 @@
   width: 100%;
   background-color: #000;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
 }
 .topnav a {
   float: left;
@@ -22,6 +26,10 @@
   /* background-color: yellow; */
 }
 @media (max-width: 600px) {
+  .topnav {
+    position: static;
+    z-index: 0;
+  }
   .topnav a {
     float: none;
     width: calc(100% - 2px);
