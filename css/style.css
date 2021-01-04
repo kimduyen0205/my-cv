@@ -173,6 +173,11 @@
   height: 50px;
   /* background-color: darkcyan; */
 }
+@media (max-width: 600px) {
+  .table-skills {
+    width: 100%;
+  }
+}
 /* ---------------------Portfolio--------------------- */
 .container-portfolio {
   width: 100%;
