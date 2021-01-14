@@ -72,7 +72,8 @@
 .gitlab-icon,
 .codepen-icon,
 .facebook-icon,
-.youtube-icon {
+.youtube-icon,
+.linked-icon {
   color: #000;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
