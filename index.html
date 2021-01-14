@@ -483,9 +483,14 @@
             If you'd like to get in touch with me, please send me a message.
             Thanks a lot!
           </p>
+          <p>Email: kimduyennt20@gmail.com</p>
         </div>
         <div class="form-contact">
-          <form>
+          <form
+            action="mailto:someone@example.com"
+            method="post"
+            enctype="text/plain"
+          >
             <div class="row-contact">
               <div class="col-25">
                 <label>First Name:</label>
@@ -518,7 +523,11 @@
                 <label>Message:</label>
               </div>
               <div class="col-75">
-                <textarea placeholder="Nhap noi dung..."></textarea>
+                <textarea
+                  placeholder="Nhap noi dung..."
+                  rows="10"
+                  cols="100"
+                ></textarea>
               </div>
             </div>
             <!-- end row-->
